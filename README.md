@@ -26,7 +26,7 @@ Go to the [Releases](https://github.com/lucifernipun22/Saveo_Assignment/blob/mai
 - [Glide](https://github.com/bumptech/glide) - loading images.
 - [Gson](https://github.com/google/gson/) - A JSON library for parsing network response.
 - [Retrofit](https://github.com/square/retrofit) - for REST APIs and network data.
-- [Room] - for Save the data into local database
+-  Room - for Save the data into local database
 ## Architecture
 Saveo Movie app based on MVVM architecture.
 - ![architecture](https://github.com/lucifernipun22/Saveo_Assignment/blob/main/architecture.png)
