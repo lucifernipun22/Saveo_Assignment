@@ -12,15 +12,12 @@ class ListRepository(val MyDataDaoObject: MyDataDao) {
     lateinit var myDataEntity : MyDataEntity
 
     suspend fun getListOfModel(){
-            val resposne=apiClient.getShows("1")
+            val resposne=apiClient.getShows(1)
             for(i in resposne.indices){
-                myDataEntity = MyDataEntity(resposne.get(i).show?.image?.original.toString())
+                myDataEntity = MyDataEntity(resposne.get(i).image.original,resposne.get(i).name,resposne.get(i).language,resposne.get(i).type,resposne.get(i).rating.average.toString(),resposne.get(i).summary)
                 MyDataDaoObject.insert(myDataEntity)
             }
-
-
     }
-
     fun getlist(): LiveData<List<MyDataEntity>> {
         return MyDataDaoObject.getTask()
     }

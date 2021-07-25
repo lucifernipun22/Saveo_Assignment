@@ -19,5 +19,6 @@ class ListViewModel(val respository: ListRepository) : ViewModel() {
         CoroutineScope(Dispatchers.IO).launch {
             respository.getListOfModel()
         }
+
     }
 }
