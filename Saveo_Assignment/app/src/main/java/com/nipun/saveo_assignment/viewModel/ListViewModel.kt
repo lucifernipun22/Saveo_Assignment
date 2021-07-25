@@ -11,13 +11,18 @@ import kotlinx.coroutines.launch
 
 class ListViewModel(val respository: ListRepository) : ViewModel() {
 
-    fun getData(): LiveData<List<MyDataEntity>> {
-        return respository.getlist()
+    /**
+     * This method is used to set the data for ui and passed to the mainActivity
+     */
+    fun getData(page: Int): LiveData<List<MyDataEntity>> {
+        return respository.getList(page)
     }
-
-    fun insertData() {
+    /**
+     * This is used for callback
+     */
+    fun insertData(page: Int) {
         CoroutineScope(Dispatchers.IO).launch {
-            respository.getListOfModel()
+            respository.getListOfModel(page)
         }
 
     }

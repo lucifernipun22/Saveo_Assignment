@@ -1,4 +1,4 @@
-package com.nipun.nobroker.ApiCall
+package com.nipun.saveo_assignment.model.network
 
 
 import okhttp3.OkHttpClient

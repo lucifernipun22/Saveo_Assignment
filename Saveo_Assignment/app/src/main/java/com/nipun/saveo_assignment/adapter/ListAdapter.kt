@@ -8,6 +8,11 @@ import com.nipun.saveo_assignment.adapter.viewHolder.ListViewHolder
 import com.nipun.saveo_assignment.adapter.viewHolder.OnClickOfItem
 import com.nipun.saveo_assignment.model.db.MyDataEntity
 
+/**
+ * This adapter is a basically used for a Grid Recycler view and set in a Main Activity
+
+   created by: Nipun jain
+ */
 class ListAdapter(private var dataList: List<MyDataEntity>, var onClickOfItem: OnClickOfItem) :
     RecyclerView.Adapter<ListViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
@@ -28,6 +33,4 @@ class ListAdapter(private var dataList: List<MyDataEntity>, var onClickOfItem: O
         dataList = modelList
         notifyDataSetChanged()
     }
-
-
-}
+    }

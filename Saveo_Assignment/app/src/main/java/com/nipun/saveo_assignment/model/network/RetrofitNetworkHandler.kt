@@ -1,4 +1,4 @@
-package com.example.itunesusingmvvm.Models.Netrork.API
+package com.nipun.saveo_assignment.model.network
 
 import retrofit2.HttpException
 import java.net.SocketTimeoutException

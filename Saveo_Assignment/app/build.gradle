@@ -53,16 +53,20 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$arch_version"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$arch_version"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$arch_version"
+
     //Coroutines
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlinCoroutineVersion"
+
     //Room
     implementation "androidx.room:room-ktx:$jetpack_version"
     kapt "androidx.room:room-compiler:$jetpack_version"
     kapt "com.android.databinding:compiler:$jetpack_version"
+
     // Retrofit & OkHttp
     //noinspection GradleDependency
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+
     //noinspection GradleDependency
     implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
     implementation "com.squareup.okhttp3:logging-interceptor:4.0.1"

@@ -5,6 +5,11 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 
+/**
+ * This is Dao class which is use to store the data into room database which name as MyDataBases
+
+   created by: Nipun jain
+ */
 @Dao
 interface MyDataDao {
 
