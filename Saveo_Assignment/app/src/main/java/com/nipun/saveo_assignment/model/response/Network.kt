@@ -1,0 +1,7 @@
+package com.nipun.saveo_assignment.model.response
+
+data class Network(
+    val country: Country,
+    val id: Int,
+    val name: String
+)
