@@ -29,6 +29,6 @@ Go to the [Releases](https://github.com/lucifernipun22/Saveo_Assignment/blob/mai
 - [Room] - for Save the data into local database
 ## Architecture
 Saveo Movie app based on MVVM architecture.
-- ![architecture](https://raw.githubusercontent.com/lucifernipun22/Saveo_Assignment/main/architecture.png?token=AN2ZZLPNSWMO4N7HZSLXGW3A7XGVG)
+- ![architecture](https://raw.githubusercontent.com/lucifernipun22/Saveo_Assignment/main/architecture.png?token=AN2ZZLLOO7MFGXC3XFLO7EDA7XMN2)
 
 
